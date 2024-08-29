@@ -1,6 +1,14 @@
 <script>
   import Step from "./Step.svelte";
   let steps = [
+  {
+      name:'Breast Cancer AI Classifier', 
+      href:'https://github.com/arnimashrestha/Breast-Tumor-Classification',
+  }, 
+  {
+      name:'Health Hop',
+      href:'https://www.figma.com/proto/5DHeQ0kE9Qyl5bUMFK0PWI/Health-Hop?node-id=25-1100&starting-point-node-id=2%3A4&t=uKeQFbQFNOTtMyPm-1'
+    },
     { 
         name: "DailyGlow", 
         href: "https://github.com/Breeze3250/DailyGlow"
@@ -29,7 +37,6 @@
         href: "https://github.com/arnimashrestha/Goostavo/tree/main"
 
     },
-    { name: "Peristaltic Pump Rotor" },
   ];
 </script>
 
@@ -80,7 +87,31 @@
 
   <section id="projects" class="py-20 lg:py-32 flex flex-col gap-24">
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
-      <Step step={steps[0]}>
+      <Step step= {steps[0]}>
+        <p>
+        This is a binary classification model, which uses neural networks to classify breast tumors as malignant or benign with a F1 score of 95%. 
+        <strong
+            class="text-violet-400"> Numpy, Pandas, Matplotlib
+          </strong>
+          were used for data processing, handling and visualization. Whereas
+          <strong
+            class="text-violet-400"> Scikit-learn and TensorFlow
+          </strong>
+          were used to train the multi-layer perceptron neural network with ReLU and sigmoid activations
+
+        </p>
+      </Step>
+      <Step step={steps[1]}>
+        
+        <p>
+          Health Hop is a a UI/UX prototype that uses AI to analyze patient symptoms, providing verified professional and community insights. It connects users with local small business clinics, enhancing primary care efficiency and reducing ER and walk-in clinic stress. This prototype was created using <strong
+            class="text-violet-400"
+            >Figma</strong
+          > using the M3 Design Frameworks! We won "Most Creative Prototype" at the UX/UW Frame Designathon out of 20 teams.
+        </p>
+      </Step>
+      <Step step={steps[2]}>
+        
         <p>
           Daily Glow is a responsive notification web application created with <strong
             class="text-violet-400"
@@ -90,7 +121,7 @@
           backend tasks, ensuring data storage, retriavble, overall application functionality
         </p>
       </Step>
-      <Step step={steps[1]}>
+      <Step step={steps[3]}>
         <p>
           AI Devangari Letter Recognizer is a deep learning language model
           created using <strong class="text-violet-400"
@@ -104,7 +135,7 @@
           the detection of the correct letter
         </p>
       </Step>
-      <Step step={steps[2]}>
+      <Step step={steps[4]}>
         <p>
           Repro is an application for low-income women to aid their fertility
           journey using new temperature tracking based technology to track
@@ -113,7 +144,7 @@
           >This was created in a mere 36 hours at Hack 6ix 2023
         </p>
       </Step>
-      <Step step={steps[3]}>
+      <Step step={steps[5]}>
         <p>
           Patient Record is a <strong class="text-violet-400"
             >C++
@@ -123,7 +154,7 @@
           will receive the sorted information back in the terminal
         </p>
       </Step>
-      <Step step={steps[4]}>
+      <Step step={steps[6]}>
         <p>
           Amode Beamforming was created using <strong class="text-violet-400"
             >C++</strong
@@ -132,7 +163,12 @@
           Excel file for display
         </p>
       </Step>
-    <Step step= {steps[6]}>
+    <Step step= {steps[7]}>
+        <p> Hummingbird is an app that locates essential products for underprivileged communities in Waterloo. Hummingbird's initial design was created in <strong class="text-violet-400"> Figma</strong> and presented at the Smart Waterloo Region Innovation Fair and awared $2000
+        </p>
+
+    </Step>
+    <Step step= {steps[8]}>
         <p>
             Vision Grip is an 3-level adjustable glasses holder that is currently under developement using
             <strong class="text-violet-400"
@@ -141,16 +177,11 @@
              and has intuitive asymmetrical attachments
         </p>
     </Step>
-    <Step step= {steps[7]}>
+    <Step step= {steps[9]}>
         <p>
             Goostavo is a fun minature goose that was created using <strong class="text-violet-400">SolidWorks, Z-Suite and Solidworks Composer</strong > 
             Goostavo consists of 5 unique parts. Its body piece consists a  <strong class="text-violet-400"> slot mechanism,</strong> that allows its wings to flap when its head is pulled up and down
         </p>
-    </Step>
-    <Step step= {steps[5]}>
-        <p> Hummingbird is an app that locates essential products for underprivileged communities in Waterloo. Hummingbird's initial design was created in <strong class="text-violet-400"> Figma</strong> and presented at the Smart Waterloo Region Innovation Fair and awared $2000
-        </p>
-
     </Step>
 
 
