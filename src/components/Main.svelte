@@ -59,8 +59,11 @@
           JavaScript(SvelteKit), TailwindCSS, HTML, C++, Python, TensorFlow, Figma,
           Solidworks, MatLab! <br>
                               <br>
-          As a future biomedical engineer, my mission is clear: to engineer solutions that restore independence to bodies facing limitations.
-          My ultimate goal is to design and develop technical and mechanical life-saving devices that contribute to fostering <span class="text-violet-400">equitable living conditions </span> for all.
+                              As a Biomedical Engineering student passionate about  <span class="text-violet-400">human-centered design</span>  , I’ve had the opportunity to work across a wide range of scales—from engineering antibiotic-loaded microrobots for targeted drug delivery to exploring the use of social robots to support vulnerable populations. This range of experiences has deepened my interest in how technology can be thoughtfully designed to meet real human needs.
+                              <br>
+                              <br>
+                              Most recently, I will be joining the <span class="text-violet-400">Social and Intelligent Robotics Research Lab</span>  as an undergraduate research assistant, where I’ll be working on the user interface and interaction design of social robots to improve engagement and accessibility for end users.
+                                     
   
         <p>
           <!--<a class= "blueShadow mx-auto lg:mr-auto text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 cursor-pointer"
