@@ -2,6 +2,10 @@
     import Step from "./Step.svelte";
     let steps = [
     {
+      name: 'EMG Prosthetic Hand',
+      href: 'https://www.notion.so/EMG-Controlled-Prosthetic-2d3c68326201801bb2b2f18ad24ebc94?source=copy_link',
+    },  
+    {
         name:'NSA Website Development', 
         href:'https://aspiring-postage-b52.notion.site/NSA-Website-Development-1dbc68326201807ca046d0be1938cb28',
     }, 
@@ -91,6 +95,18 @@
     <section id="projects" class="py-20 lg:py-32 flex flex-col gap-24">
       <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
         <Step step= {steps[0]}>
+            <p>
+            An EMG-controlled prosthetic hand designed to support clinical sample handling, where 
+            <strong class="text-violet-400"> mechanical design </strong>
+            enabled tendon-driven finger motion, 
+            <strong class="text-violet-400"> electrical signal conditioning </strong>
+            was used to amplify and filter raw EMG signals, and 
+            <strong class="text-violet-400"> Arduino-based firmware </strong>
+            was used to convert muscle activity into controlled grasping.
+            </p>
+
+        </Step>
+        <Step step= {steps[1]}>
           <p>
           A responsive web-app that follows mobile-first principle created for the UW Nepalese Student Association  
           <strong
@@ -104,7 +120,7 @@
   
           </p>
         </Step>
-        <Step step={steps[1]}>
+        <Step step={steps[2]}>
           
           <p>
             Health Hop is a a UI/UX prototype that uses AI to analyze patient symptoms, providing verified professional and community insights. It connects users with local small business clinics, enhancing primary care efficiency and reducing ER and walk-in clinic stress. This prototype was created using <strong
@@ -113,7 +129,7 @@
             > using the M3 Design Frameworks! We won "Most Creative Prototype" at the UX/UW Frame Designathon out of 20 teams.
           </p>
         </Step>
-        <Step step={steps[2]}>
+        <Step step={steps[3]}>
           
           <p>
             This project aimed to validate and optimize the design of a prosthetic foot using Finite Element Analysis (FEA)  <strong
@@ -124,7 +140,7 @@
          </strong> was used to analyze the resulting force and displacement after conducing a tensile test on a 3D printed PLA dogbone sample, simulating the material behaviour of the prosthetic foot.  
           </p>
         </Step>
-        <Step step={steps[3]}>
+        <Step step={steps[4]}>
           <p>
             TaskFlow is a prototype of a web-app productivity app focused on planning features, which was created using <strong class="text-violet-400"
               >Figma, Maze, and Google Forms</strong
@@ -134,14 +150,14 @@
            
           </p>
         </Step>
-        <Step step={steps[4]}>
+        <Step step={steps[5]}>
           <p>
             SplintAssist was developed to design a biomedical solution to support stroke survivor, where skills such as   <strong class="text-violet-400"
               >Needs Assessment & Requirement Engineering, Prototyping and Rapid Iteration, CAD Modelling, Engineering Analysis, Materials Research and Selection</strong
             > were strengthened. This was created in a mere 36 hours at MedSprint 2024 at McMaster University
           </p>
         </Step>
-        <Step step={steps[5]}>
+        <Step step={steps[6]}>
           <p>
             Patient Record is a <strong class="text-violet-400"
               >C++
@@ -151,7 +167,7 @@
             will receive the sorted information back in the terminal
           </p>
         </Step>
-        <Step step={steps[6]}>
+        <Step step={steps[7]}>
           <p>
             Amode Beamforming was created using <strong class="text-violet-400"
               >C++</strong
